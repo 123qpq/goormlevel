@@ -35,7 +35,7 @@ int main(void) {
 	sort_data(ary);
 	printf("\n# 정렬 후 데이터...\n");
 	print_data(ary);
-
+	free(ary);
 	return 0;
 }
 
